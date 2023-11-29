@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* GENERAL */
+.bg-secondary {
+  background-color: #bcbec0 !important;
+}
+.bg-hook {
+  background-color: #424344;
+}
+
+/* HEADER SECTION */
+.buthow { color: whitesmoke !important; text-decoration:none !important;}
+.buthow:hover { color: black !important;}
+
+.top-logo {
+  max-height: 6vh;
+  max-width: 30vw;
+  padding: 4px 0;
+}
+.intro-stat {
+  margin-top: 20vh; /*Height of the video section is 85vh */
+}
+
+#hook {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.row {
+  margin: 45px auto;
+}
+div.section-title{
+  margin-bottom: 30px;
+}
+
+section p{
+  font-size: 21px;
+}
+
+section h1,h2,h3 {
+  margin-bottom: 15px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 95vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 156px 0 100px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 90vh;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+/* -- END HEADER SECTION --*/
+
+/* SERVICES SECTION */
+
+.services .row {
+  margin-top: 75px;
+}
+
+
+
+
+/* -- ABOUT SECTION --*/
+#about {
+  padding-top: 70px;
+}
+
+.col-icon {
+  max-width: 30%;
+  max-height: 30%;
+  margin:0 auto;
+}
+
+/* -- END ABOUT SECTION -- */
+
+/* -- FOOTER SECTION -- */
+.bottom-logo {
+  max-height: 20px;
+}
+
+footer li a {
+  color: whitesmoke;
+}
+footer li a:hover {
+  color: whitesmoke;
+}
+
+form .frow {
+  margin: 15px auto;
+}
